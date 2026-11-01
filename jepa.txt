@@ -1,0 +1,26 @@
+
+Training JEPA models...
+
+[full]
+  epoch 1: loss = 2.8950
+  epoch 2: loss = 1.3556
+  epoch 3: loss = 1.2053
+  epoch 4: loss = 1.1609
+  epoch 5: loss = 1.0817
+  test JEPA loss = 0.7876   ops/query = 1000.00
+
+[sliding]
+  epoch 1: loss = 1.9341
+  epoch 2: loss = 0.5827
+  epoch 3: loss = 0.4934
+  epoch 4: loss = 0.4285
+  epoch 5: loss = 0.3816
+  test JEPA loss = 0.3231   ops/query = 20.00
+
+[gated]
+  epoch 1: loss = 2.0683
+  epoch 2: loss = 0.4819
+  epoch 3: loss = 0.4316
+  epoch 4: loss = 0.4011
+  epoch 5: loss = 0.3726
+  test JEPA loss = 0.3212   ops/query = 15.41   gate-event corr = -0.043

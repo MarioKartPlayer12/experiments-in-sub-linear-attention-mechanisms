@@ -1,0 +1,36 @@
+Generating data...
+  Train: 3000 sequences x 360 steps
+  Test:  300 sequences
+
+Training models...
+
+[full]
+  epoch 1: loss = 5.6375
+  epoch 2: loss = 2.3698
+  epoch 3: loss = 2.1579
+  epoch 4: loss = 1.6332
+  epoch 5: loss = 1.2378
+  test MSE = 1.1926   ops/query = 360.00
+
+[sliding]
+  epoch 1: loss = 2.7164
+  epoch 2: loss = 1.0916
+  epoch 3: loss = 1.0299
+  epoch 4: loss = 0.9785
+  epoch 5: loss = 0.9281
+  test MSE = 1.0644   ops/query = 20.00
+
+[gated]
+  epoch 1: loss = 2.5358
+  epoch 2: loss = 0.6484
+  epoch 3: loss = 0.6144
+  epoch 4: loss = 0.5707
+  epoch 5: loss = 0.5508
+  test MSE = 0.5460   ops/query = 26.55   gate-event corr = -0.182
+
+==============================================================
+method           MSE     ops/query      gate↔event
+--------------------------------------------------------------
+full          1.1926        360.00             n/a
+sliding       1.0644         20.00             n/a
+gated         0.5460         26.55          -0.182
