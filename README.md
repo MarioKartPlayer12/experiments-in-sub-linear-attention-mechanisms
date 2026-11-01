@@ -5,7 +5,7 @@ input-dependent sparse causal attention — compared against full and sliding-wi
 attention on synthetic event-driven time series. Includes a JEPA
 (next-embedding prediction) variant.
 
-See [docs/architecture.md](docs/architecture.md) for the theoretical architecture.
+See [architecture.md](architecture.md) for the theoretical architecture.
 
 ## Results
 
